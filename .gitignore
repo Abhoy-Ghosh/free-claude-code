@@ -1,14 +1,78 @@
-__pycache__
-.claude
-.cursor
-.pytest_cache
-.ruff_cache
-.serena
-.venv
-agent_workspace
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.smoke-results/
+
+# IDEs and editors
+.claude/
+.cursor/
+.serena/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and config
 .env
+.env.local
+.env.*.local
+.python-version
+
+# Logs and temporary files
+*.log
 server.log
 debug-*.log
-.coverage
-llama_cache
-.smoke-results
+logs/
+tmp/
+temp/
+
+# Cache directories
+.ruff_cache/
+.mypy_cache/
+.pyre_cache/
+.llama_cache/
+llama_cache/
+agent_workspace/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Project specific
+pic.png
+*.bak
+*.tmp
